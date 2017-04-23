@@ -1,29 +1,33 @@
 <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+</head>
 <html>
 <body>
 
 <div id="result">
-Imie: <input type="text" name="name" id="name"><br>
-  Nazwisko: <input type="text" name="surname" id="surname"><br>
-  <input type="submit" onclick="send()" value="Przeslij">
-  <input type="submit" onclick="download()" value="Przywróć">
+    Imie: <input type="text" name="imie" id="imie"><br>
+  Nazwisko: <input type="text" name="nazwisko" id="nazwisko"><br>
+  <input type="submit" onclick="wyslij()" value="Przeslij">
+  <input type="submit" onclick="pobierz()" value="Przywróć">
 </div>
 
 <script>
 function wyslij() {
-    var imie = document.getElementById("name").value
-    var nazwisko = document.getElementById("surname").value
-    localStorage.setItem("name", imie);
-    localStorage.setItem("surname", nazwisko);
-    document.getElementById("surname").value = "";
-    document.getElementById("name").value = "";
+    var imie = document.getElementById("imie").value
+    var nazwisko = document.getElementById("nazwisko").value
+    localStorage.setItem("imie", imie);
+    localStorage.setItem("nazwisko", nazwisko);
+    document.getElementById("nazwisko").value = "";
+    document.getElementById("imie").value = "";
 }
 function pobierz() {
-    document.getElementById("surname").value = localStorage.getItem("surname");
-    document.getElementById("name").value = localStorage.getItem("name");
+    document.getElementById("nazwisko").value = localStorage.getItem("nazwisko");
+    document.getElementById("imie").value = localStorage.getItem("imie");
 }
 if (typeof(Storage) !== "undefined") {
-   } else {
+} else {
+}
 </script>
 
 </body>
