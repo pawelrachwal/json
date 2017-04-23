@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+</head>
+<body>
+
+<div id="result">
+    Login: <input type="text" name="imie" id="login"><br>
+    Hasło: <input type="password" name="nazwisko" id="haslo"><br>
+  <input type="submit" onclick="porownaj()" value="Loginś">
+</div>
+
+<script>
+    localStorage.setItem("username", "annie");
+    localStorage.setItem("password", "ax123");
+function porownaj() {
+    var login = document.getElementById("login").value
+    var haslo = document.getElementById("haslo").value
+   if(login == "" || haslo == "") {
+       alert("podaj dane");
+   } else {
+       if(login != localStorage.getItem("username") || haslo != localStorage.getItem("password")) {
+           alert("Podales niepoprawne dane");
+       } else {
+            alert("Udało się zalogować")
+       }
+   }
+}
+if (typeof(Storage) !== "undefined") {
+} else {
+}
+</script>
+
+</body>
+</html>
