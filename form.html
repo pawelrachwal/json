@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="result">
+Imie: <input type="text" name="name" id="name"><br>
+  Nazwisko: <input type="text" name="surname" id="surname"><br>
+  <input type="submit" onclick="send()" value="Przeslij">
+  <input type="submit" onclick="download()" value="Przywróć">
+</div>
+
+<script>
+function wyslij() {
+    var imie = document.getElementById("name").value
+    var nazwisko = document.getElementById("surname").value
+    localStorage.setItem("name", imie);
+    localStorage.setItem("surname", nazwisko);
+    document.getElementById("surname").value = "";
+    document.getElementById("name").value = "";
+}
+function pobierz() {
+    document.getElementById("surname").value = localStorage.getItem("surname");
+    document.getElementById("name").value = localStorage.getItem("name");
+}
+if (typeof(Storage) !== "undefined") {
+   } else {
+</script>
+
+</body>
+</html>
