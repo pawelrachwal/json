@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="result"></div>
+<input type="submit" onclick="pobierzDane()" value="pobierz">
+<input type="submit" onclick="zaladujDane()" value="zaladuj">
+
+<script>
+function zaladujDane() {
+function utworzDB(tx) {
+	//tx.executeSql('DROP TABLE IF EXISTS DANE');
+	tx.executeSql('CREATE TABLE IF NOT EXISTS DANE (imie VARCHAR, nazwisko VARCHAR)');
+    tx.executeSql('INSERT INTO DANE (imie, nazwisko) VALUES ("Paweł","Rachwał")');
+	tx.executeSql('INSERT INTO DANE (imie, nazwisko) VALUES ("Szymon","Pogon")');
+    tx.executeSql('INSERT INTO DANE (imie, nazwisko) VALUES ("Roksana","Butryn")');
+    tx.executeSql('INSERT INTO DANE (imie, nazwisko) VALUES ("Kamil","Walas")');
+}
+function errorCB(err) {
+	alert("Error processing SQL: "+err.code);
+}
+   
+function successCB() {
+	var db = window.openDatabase("dane", "1.0", "dane", 200000);
+	db.transaction(wybierzSamochod, errorCB);
+}
+	var db = window.openDatabase("dane", "1.0", "dane", 200000);
+	db.transaction(utworzDB, errorCB, successCB);
+}
+function pobierzDane() {
+	function daneID(tx) {
+		tx.executeSql('SELECT * FROM DANE', querySuccess1, errorCB);
+	}
+	function querySuccess1(tx, results) {
+		var len = results.rows.length;
+        alert(len);
+			for (var i=0; i<len; i++){
+				dane += results.rows.item(i).imie + "<br/>"
+				
+		}
+        document.getElementById("result").innerHTML = dane;
+	}
+    function errorCB(err) {
+	alert("Error processing SQL: "+err.code);
+}
+	var db = window.openDatabase("dane", "1.0", "dane", 200000);
+	db.transaction(daneID, errorCB);
+}
+</script>
+
+</body>
+</html>
