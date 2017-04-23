@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Paweł",
+    "surname": "Rachwał",
+    "age": 23,
+    "gender": "Male",
+    "email": "s181483@wizard.uek.krakow.pl",
+    "phone": {
+      "landline": 1111111111,
+      "mobile": 0
+    },
+    "address": {
+      "street": "Rakowicka",
+      "home number": 3,
+      "postal code": "30-462",
+      "city": "Kraków"
+    },
+    "interests": [
+      "Mobile",
+      "Travel",
+      "Cooking"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Grażyna",
+        "surname": "Rachwał"
+      },
+      "children": [
+        {
+          "name": "Michał",
+          "surname": "Rachwał",
+          "gender": "Male",
+          "age": 8,
+          "interests": "Football"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Paweł",
+    "surname": "Rachwał",
+    "age": 23,
+    "gender": "Male",
+    "email": "s181483@wizard.uek.krakow.pl",
+    "phone": {
+      "landline": 1111111111,
+      "mobile": 0
+    },
+    "address": {
+      "street": "Rakowicka",
+      "home number": 3,
+      "postal code": "30-462",
+      "city": "Kraków"
+    },
+    "interests": [
+      "Mobile",
+      "Travel",
+      "Cooking"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Grażyna",
+        "surname": "Rachwał"
+      },
+      "children": [
+        {
+          "name": "Michał",
+          "surname": "Rachwał",
+          "gender": "Male",
+          "age": 8,
+          "interests": "Football"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Paweł",
+    "surname": "Rachwał",
+    "age": 23,
+    "gender": "Male",
+    "email": "s181483@wizard.uek.krakow.pl",
+    "phone": {
+      "landline": 1111111111,
+      "mobile": 0
+    },
+    "address": {
+      "street": "Rakowicka",
+      "home number": 3,
+      "postal code": "30-462",
+      "city": "Kraków"
+    },
+    "interests": [
+      "Mobile",
+      "Travel",
+      "Cooking"
+    ],
+    "family": {
+      "spouse": {
+        "name": "Grażyna",
+        "surname": "Rachwał"
+      },
+      "children": [
+        {
+          "name": "Michał",
+          "surname": "Rachwał",
+          "gender": "Male",
+          "age": 8,
+          "interests": "Football"
+        }
+      ]
+    }
+  }
+]

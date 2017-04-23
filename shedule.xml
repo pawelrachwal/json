@@ -1,0 +1,115 @@
+<plan-zajec typ="G" id="109181" nazwa="KrDUIs1012" od="2017-04-11" do="2017-04-25">
+<okres od="2017-04-11" do="2017-04-25" nazwa="2017-04-11 do 2017-04-25" wybrany="tak"/>
+<okres od="2016-09-30" do="2017-02-19" nazwa="2016-09-30 do 2017-02-19"/>
+<okres od="2017-02-20" do="2017-09-30" nazwa="2017-02-20 do 2017-09-30"/>
+<zajecia>
+<termin>2017-04-11</termin>
+<dzien>Wt</dzien>
+<od-godz>09:35</od-godz>
+<do-godz>11:15</do-godz>
+<przedmiot>Bogate aplikacje internetowe</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.F 107</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-11</termin>
+<dzien>Wt</dzien>
+<od-godz>13:05</od-godz>
+<do-godz>14:45</do-godz>
+<przedmiot>Bogate aplikacje internetowe</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 301a lab.</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-11</termin>
+<dzien>Wt</dzien>
+<od-godz>14:50</od-godz>
+<do-godz>16:25</do-godz>
+<przedmiot>Marketing i handel elektroniczny</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-908">dr Mariusz Kuziak</nauczyciel>
+<sala>Bibl. 442</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-19</termin>
+<dzien>Śr</dzien>
+<od-godz>09:35</od-godz>
+<do-godz>11:15</do-godz>
+<przedmiot>Metody optymalizacji procesów</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-1034">prof. UEK Paweł Lula</nauczyciel>
+<sala>Bibl. 442</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-20</termin>
+<dzien>Cz</dzien>
+<od-godz>13:05</od-godz>
+<do-godz>14:45</do-godz>
+<przedmiot>Metody optymalizacji procesów</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-2928">mgr Przemysław Jaśko</nauczyciel>
+<sala>Paw.A 121 lab. Vista,Office07</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-20</termin>
+<dzien>Cz</dzien>
+<od-godz>14:50</od-godz>
+<do-godz>16:25</do-godz>
+<przedmiot>Programowanie kreatywne</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-899">dr hab. Wit Urban</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office03</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-20</termin>
+<dzien>Cz</dzien>
+<od-godz>16:30</od-godz>
+<do-godz>19:45</do-godz>
+<przedmiot>Język obcy</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel/>
+<sala/>
+</zajecia>
+<zajecia>
+<termin>2017-04-24</termin>
+<dzien>Pn</dzien>
+<od-godz>18:10</od-godz>
+<do-godz>19:45</do-godz>
+<przedmiot>Język obcy</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel/>
+<sala/>
+</zajecia>
+<zajecia>
+<termin>2017-04-25</termin>
+<dzien>Wt</dzien>
+<od-godz>09:35</od-godz>
+<do-godz>11:15</do-godz>
+<przedmiot>Bogate aplikacje internetowe</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.F 107</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-25</termin>
+<dzien>Wt</dzien>
+<od-godz>13:05</od-godz>
+<do-godz>14:45</do-godz>
+<przedmiot>Bogate aplikacje internetowe</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 301a lab.</sala>
+</zajecia>
+<zajecia>
+<termin>2017-04-25</termin>
+<dzien>Wt</dzien>
+<od-godz>14:50</od-godz>
+<do-godz>16:25</do-godz>
+<przedmiot>Marketing i handel elektroniczny</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-908">dr Mariusz Kuziak</nauczyciel>
+<sala>Bibl. 442</sala>
+</zajecia>
+</plan-zajec>
